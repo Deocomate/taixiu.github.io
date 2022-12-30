@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
+  },
+  "name": "taixiuonline",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node-sass scss/main.scss css/main.css",
+    "watch:css": "npm run build:css -- --watch --source-map true"
+  },
+  "author": "Lou",
+  "license": "ISC",
+  "description": ""
+}
