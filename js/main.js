@@ -100,6 +100,10 @@ $(document).ready(async function () {
                             $("#taiValue").val(0)
                         }
 
+                        if (currentMoney>0) {
+                            plusVal = 10000
+                        }
+
                         $("#startGame").show()
                         clearInterval(countDown)
                     }
