@@ -85,18 +85,18 @@ $(document).ready(async function () {
 
                         if (sum >= 4 && sum <= 10) {
 
-                            currentMoney = currentMoney + Number(taiValue) * 2;
+                            currentMoney = currentMoney + Number(xiuValue) * 2;
                             let stringMoney = vnDong(currentMoney)
                             $(".keoNhaCai .card-header h3").html(`Tài khoản còn: ${stringMoney}`);
-                            $("#result").html(`<b class="text-success">Tài</b>`);
+                            $("#result").html(`<b class="text-success">Xỉu</b>`);
                             $("#xiuValue").val(0)
                             $("#taiValue").val(0)
                         } else {
 
-                            currentMoney = currentMoney + Number(xiuValue) * 2;
+                            currentMoney = currentMoney + Number(taiValue) * 2;
                             let stringMoney = vnDong(currentMoney)
                             $(".keoNhaCai .card-header h3").html(`Tài khoản còn: ${stringMoney}`);
-                            $("#result").html(`<b class="text-danger">Xỉu</b>`);
+                            $("#result").html(`<b class="text-danger">Tài</b>`);
                             $("#xiuValue").val(0)
                             $("#taiValue").val(0)
                         }
