@@ -1,10 +1,10 @@
 /* CSS Button */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-size: cover;
 }
 .button-30 {
@@ -54,7 +54,7 @@ body{
 }
 
 //Dice Contain
-.header{
+.header {
   font-family: monospace;
 }
 .dice-contain {
@@ -62,11 +62,75 @@ body{
     font-size: 15vw;
   }
 }
-.dice-item{
+.dice-item {
   background-color: white;
 }
-#result{
+#result {
   background-color: antiquewhite;
+}
+.keoNhaCai {
+  .number{
+    display: flex;
+    justify-content: center;
+  }
+  span {
+    cursor: pointer;
+  }
+  .minus,
+  .plus {
+    padding: 10px;
+    font-size: 20px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+  input {
+    height: 34px;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  /* CSS */
+  .minus,
+  .plus {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .minus,
+  .plus {
+    &:active {
+      box-shadow: 0px 0px 0px 0px;
+      top: 5px;
+      left: 5px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }
 }
 
 @media (min-width: 700px) {

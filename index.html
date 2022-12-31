@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tài xỉu 2023</title>
+    <!-- Open -->
+    <meta property="og:title" content="Tài xỉu 2023">
+    <meta property="og:description" content="Nhanh tay lẹ mắt, lì xì tiền trăm">
+    <meta property="og:image" content="./img/header.png">
+    <meta property="og:type" content="website">
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -20,7 +26,7 @@
         <section class="header text-center mt-5 mb-4">
             <h1 class="fw-bold fs-1 text-white">Chơi game liền tay <br>Nhận ngay lì xì</h1>
         </section>
-        <section class="dice-contain">
+        <section class="dice-contain mb-3">
             <div class="container">
                 <div class="row g-3">
                     <div class="col-4">
@@ -47,6 +53,37 @@
                 <div class="result mt-3">
                     <div id="result" class="border p-1 text-center fw-bold fs-2 border-4">
                         <b class="">Kết quả?</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="keoNhaCai">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Tài khoản còn: 000.000đ</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <h4 class="text-center">Tài</h4>
+                                    <div class="number">
+                                        <span class="minus">-</span>
+                                        <input type="text" id="taiValue" value="0" class="mx-3" readonly />
+                                        <span class="plus">+</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <h4 class="text-center">Xỉu</h4>
+                                    <div class="number">
+                                        <span class="minus">-</span>
+                                        <input type="text" id="xiuValue" value="0" class="mx-3" readonly />
+                                        <span class="plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
