@@ -1,4 +1,5 @@
 $(document).ready(async function () {
+    alert("Chào mừng bạn đến vui chơi có thưởng. Luật chơi rất đơn giản, bạn có sẵn 500k, hãy x10 tài khoản của mình để nhận quà nhé. Cap lại màn hình trên đth để nhận quà. (Refresh trang sẽ load lại từ đầu nên cẩn thận nhé)")
     let currentMoney = 500000;
     let plusVal = 10000;
 
